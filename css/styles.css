@@ -1,0 +1,134 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.box {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.links {
+    font-size: 13px;
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+}
+
+
+button {
+    background-color: #746cbb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px;
+    width: 80px;
+}
+
+button:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+button {
+    background-color: #746cbb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+#btnCerrarSesion a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+}
+
+.container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.box {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+.logo img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.links {
+    font-size: 13px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.links a {
+    color: #746cbb;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #555;
+}

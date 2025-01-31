@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar Servicios</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="box">
+        <div class="logo">
+            <img src="/images/candado.png" alt="candado">
+        </div>
+        <div class="container">
+            <h2>Pagar Servicios</h2>
+            <p>Seleccione el servicio y registre la referencia:</p>
+            <select id="servicio">
+                <option value="Energía">Energía</option>
+                <option value="Agua">Agua</option>
+                <option value="Gas">Gas</option>
+            </select>
+            <input type="text" id="referencia" placeholder="Referencia del servicio" required>
+            <input type="number" name="valor" id="valorPago" placeholder="Monto del servicio" required>
+            <button id="btnPagar">Pagar</button>
+        </div>
+        <div class="links">
+            <a href="/pages/menuPrincipal.html">Volver al menú principal</a>
+        </div>
+    </div>
+    <script src="/js/pagarServicios.js"></script>
+</body>
+</html>

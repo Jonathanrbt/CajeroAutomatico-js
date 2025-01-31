@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automatico</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="box">
+        <div class="logo">
+            <img src="/images/candado.png" alt="candado">
+        </div>
+        <div class="container">
+            <p>Crear Usuario</p>
+        <form id="frmUsuarios">
+            <input type="text" name="numeroDocumento" id="noDocumento" placeholder="INGRESE SU NUMERO DE DOCUMENTO" required> <br> <br>
+            <input type="text" name="nombre" id="nombre" placeholder="INGRESE SU NOMBRE" required> <br> <br>
+            <input type="password" name="clave" id="clave" placeholder="INGRESE SU CLAVE" required autocomplete="current-password"> <br> <br>
+            <button type="button" id="btnRegistro">Registrar</button> <br> <br>
+        </form>
+        </div>
+        <div class="links">
+            <a href="/index.html">Ingresar con cuenta existente</a>
+        </div>
+    </div>
+    <script src="/js/registro.js" ></script>
+</body>
+</html>
